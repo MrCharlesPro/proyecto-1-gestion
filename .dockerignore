@@ -1,0 +1,17 @@
+node_modules
+npm-debug.log
+.env
+.env.*
+*.pem
+.git
+.github
+.gitignore
+coverage
+tests
+data
+*.log
+*.zip
+PROJECT_CONTEXT.md
+README.md
+Dockerfile
+.dockerignore
