@@ -159,7 +159,7 @@ app.delete('/api/reset', (req, res) => {
 
 // -----------------------------------------------------------------------
 
-app.get('/health', (req, res) => respond(res, 200, [{ status: 'ok' }]));
+app.get('/health', (req, res) => respond(res, 200, [{ status: 'ok prueba charles para entrega' }]));
 
 app.use((req, res) => respond(res, 404, []));
 
