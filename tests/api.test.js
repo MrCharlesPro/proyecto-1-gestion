@@ -372,7 +372,7 @@ describe('Rutas generales', () => {
   test('GET /health responde ok', async () => {
     const res = await request(app).get('/health');
     expect(res.status).toBe(200);
-    expect(res.body.data[0].status).toBe('ok prueba charles para entrega');
+    expect(res.body.data[0].status).toBe('ok prueba charles para entrega 09');
   });
 
   test('FALLO: ruta inexistente responde 404 con formato estandar', async () => {
